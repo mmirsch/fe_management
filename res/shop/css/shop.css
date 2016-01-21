@@ -1,0 +1,127 @@
+
+.tx-femanagement-pi1  td.title {
+	font-weight: bold;
+	width: 300px;
+}
+
+.tx-femanagement-pi1  td.artikelnummer {
+	width: 40px;
+}
+
+.tx-femanagement-pi1 .cart .add,
+.tx-femanagement-pi1 .cart .remove {
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	padding-left: 20px;
+	padding-bottom: 10px;	
+	height: 20px;
+}
+
+.tx-femanagement-pi1 .cart .add {
+	background-image: url('../images/cart_add.png') !important;
+	float: left;
+	width: 16px;
+	height: 16px;
+}
+
+.tx-femanagement-pi1 .cart .remove,
+.tx-femanagement-pi1 .cart_table .remove_elem {
+	background-image: url('../images/cart_remove.png') !important;
+	float: left;
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.tx-femanagement-pi1 a.cart_page {
+	background-image: url('../images/cart.png') !important;
+	float: right;
+	width: 32px;
+	height: 32px;
+}
+
+.tx-femanagement-pi1 .cart_info {
+	float: right;
+	color: #004666;
+	font-size: 24px;
+	margin-right: 6px;
+	font-weight: bold;
+}
+
+.tx-femanagement-pi1 #shopping_cart {
+	overflow: hidden;
+	float: right;
+	background: #d9e4e8;
+	padding: 0 2px 2px 2px;
+	border: 2px solid #004666;	
+	height: 32px;
+}
+
+.tx-femanagement-pi1 input.count {
+	width: 40px;
+	float: left;
+	margin-right: 5px;
+}
+
+.tx-femanagement-pi1 #pagebrowser {
+	padding: 4px 0 10px 0;
+	margin: 0;
+	width: 100%;
+}
+
+table.cart_table {
+	border-collapse: collapse;
+	margin-left: 4px;
+	float: left;
+}
+
+table.cart_table td,
+table.cart_table th {
+	border: 1px solid #004666;
+	padding: 2px 4px;
+}
+
+table.cart_table td.right {
+	text-align: right;
+}
+
+table.cart_table td.no-border-left {
+	border-left: none;
+}
+
+table.cart_table td.no-border-right {
+	border-right: none;
+}
+
+.tx-femanagement-pi1 .produktname {
+	color: #004666;
+}
+	
+.hersteller_list .row_elem table,
+.lieferanten_list .row_elem table {
+	width: 100%;
+}
+
+.hersteller_list table td.spalte_links,
+.lieferanten_list table td.spalte_links {
+	width: 45%;
+	vertical-align: top;
+}
+
+.hersteller_list table td.spalte_rechts,
+.lieferanten_list table td.spalte_rechts {
+	width: 45%;
+	vertical-align: top;
+}
+
+.tx-femanagement-pi1 span.empty_cart {
+	background-image: url('../images/empty_cart.png') !important;
+	margin-left: 10px;
+	float: left;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+}
+

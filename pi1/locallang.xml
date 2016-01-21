@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_femanagement_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="NOT_LOGIN">Please login to see this content</label>
+			<label index="CAL_CREATE_BUTTON_LABEL">Create the event</label>
+			<label index="CAL_CREATE_NEW_EVENT">Create a new event</label>
+			<label index="CAL_TITLE_LABEL">Title</label>
+			<label index="CAL_DESCRIPTION_LABEL">Description</label>
+			<label index="CAL_STARTDATE_LABEL">Start date</label>
+			<label index="CAL_STARTTIME_LABEL">Start time</label>
+			<label index="CAL_ENDTIME_LABEL">End time</label>
+			<label index="CAL_ENDDATE_LABEL">End date</label>
+			<label index="CAL_CREATE_NEW_LOCATION">Create a new location</label>
+			<label index="CAL_CREATE_NEW_ORGANIZER">Create a new organizer</label>
+			<label index="CAL_IMAGE_LABEL">Image upload</label>
+			<label index="CAL_WHOLEDAY_LABEL">All-day event</label>
+			<label index="CAL_FILE_LABEL">File upload</label>
+			<label index="CAL_LINK_LABEL">Add a link</label>
+			<label index="CAL_LOCATION_LABEL">Location name</label>
+			<label index="CAL_LOCATION_DESCRIPTION_LABEL">Description of the location</label>
+			<label index="CAL_LOCATION_STREET_LABEL">Street</label>
+			<label index="CAL_LOCATION_ZIP_LABEL">Zip Code</label>
+			<label index="CAL_LOCATION_CITY_LABEL">City</label>
+			<label index="CAL_LOCATION_PHONE_LABEL">Phone Number</label>
+			<label index="CAL_LOCATION_EMAIL_LABEL">E-Mail</label>
+			<label index="CAL_LOCATION_IMAGE_LABEL">Location Image</label>
+			<label index="CAL_LINK_LABEL">Location Link</label>
+			<label index="CAL_ORGANIZER_LABEL">Organizer</label>
+			<label index="CAL_ORGANIZER_DESCRIPTION_LABEL">Organizer description</label>
+			<label index="CAL_ORGANIZER_STREET_LABEL">Street</label>
+			<label index="CAL_ORGANIZER_ZIP_LABEL">Zip Code</label>
+			<label index="CAL_ORGANIZER_CITY_LABEL">City</label>
+			<label index="CAL_ORGANIZER_PHONE_LABEL">Phone</label>
+			<label index="CAL_ORGANIZER_EMAIL_LABEL">E-Mail</label>
+			<label index="CAL_ORGANIZER_IMAGE_LABEL">Organizer Image</label>
+			<label index="CAL_LINK_LABEL">Organizer Link</label>
+			<label index="CAL_FE_USER_ID_LABEL">Associated Person</label>
+			<label index="TIME_SELECTOR_HOUR">hour</label>
+			<label index="TIME_SELECTOR_MINUTE">minute</label>
+			<label index="TIME_SELECTOR_NOW">now</label>
+			<label index="TIME_SELECTOR_DONE">save</label>
+			<label index="TIME_SELECTOR_TIME">Time</label>
+			<label index="TIME_SELECTOR_INSERT_TIME">Select Time</label>
+			<label index="ICON_SINGLE_VIEW">Detail View</label>
+			<label index="ICON_SINGLE_EDIT">Edit</label>
+			<label index="ICON_SINGLE_COPY">Copy - Creates a new entry as a copy of the existing</label>
+			<label index="ICON_SINGLE_HIDE">Hide - Hidden items are not displayed</label>
+			<label index="ICON_SINGLE_UNHIDE">Activate - hidden entries will be re-activated</label>
+			<label index="ICON_SINGLE_DELETE">Delete - Deleted items can only be restored by an administrator</label>
+			<label index="ICON_SINGLE_UNDELETE">Undelete - Re-enables a deleted record</label>
+			<label index="SAVE_FORM">save</label>
+			<label index="ABORT_FORM">abort</label>
+			<label index="CAL_SAVE_FORM">Save event</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="NOT_LOGIN">Diese Seite ist nur für angemeldete Benutzer sichtbar. Bitte melden Sie sich an.</label>
+			<label index="CAL_CREATE_BUTTON_LABEL">Termin erstellen</label>
+			<label index="CAL_CREATE_NEW_EVENT">Neuen Termin erstellen</label>
+			<label index="CAL_TITLE_LABEL">Titel</label>
+			<label index="CAL_DESCRIPTION_LABEL">Beschreibung</label>
+			<label index="CAL_STARTDATE_LABEL">Startdatum</label>
+			<label index="CAL_STARTTIME_LABEL">Start Zeit</label>
+			<label index="CAL_ENDTIME_LABEL">Stopp Zeit</label>
+			<label index="CAL_ENDDATE_LABEL">Enddatum</label>
+			<label index="CAL_CREATE_NEW_LOCATION">Einen neuen Veranstaltungsort anlegen</label>
+			<label index="CAL_CREATE_NEW_ORGANIZER">Einen neuen Veranstalter anlegen</label>
+			<label index="CAL_IMAGE_LABEL">Bild hochladen</label>
+			<label index="CAL_WHOLEDAY_LABEL">Ganztägiger Termin</label>
+			<label index="CAL_FILE_LABEL">Datei hochladen</label>
+			<label index="CAL_LINK_LABEL">Link hinzufügen</label>
+			<label index="CAL_LOCATION_LABEL">Ortsname</label>
+			<label index="CAL_LOCATION_DESCRIPTION_LABEL">Beschreibung des Ortes</label>
+			<label index="CAL_LOCATION_STREET_LABEL">Strasse</label>
+			<label index="CAL_LOCATION_ZIP_LABEL">Postleitzahl</label>
+			<label index="CAL_LOCATION_CITY_LABEL">Stadt</label>
+			<label index="CAL_LOCATION_PHONE_LABEL">Telefonnummer</label>
+			<label index="CAL_LOCATION_EMAIL_LABEL">E-Mail</label>
+			<label index="CAL_LOCATION_IMAGE_LABEL">Ortsbild</label>
+			<label index="CAL_LINK_LABEL">Orts Link</label>
+			<label index="CAL_ORGANIZER_LABEL">Veranstalter</label>
+			<label index="CAL_ORGANIZER_DESCRIPTION_LABEL">Veranstalter Beschreibung</label>
+			<label index="CAL_ORGANIZER_STREET_LABEL">Straße</label>
+			<label index="CAL_ORGANIZER_ZIP_LABEL">Postleitzahl</label>
+			<label index="CAL_ORGANIZER_CITY_LABEL">Stadt</label>
+			<label index="CAL_ORGANIZER_PHONE_LABEL">Telefon</label>
+			<label index="CAL_ORGANIZER_EMAIL_LABEL">E-Mail</label>
+			<label index="CAL_ORGANIZER_IMAGE_LABEL">Veranstalter Bild</label>
+			<label index="CAL_LINK_LABEL">Veranstalter Link</label>
+			<label index="CAL_FE_USER_ID_LABEL">Zugeordnete Person</label>
+			<label index="TIME_SELECTOR_HOUR">Stunde</label>
+			<label index="TIME_SELECTOR_MINUTE">Minute</label>
+			<label index="TIME_SELECTOR_NOW">Jetzt</label>
+			<label index="TIME_SELECTOR_DONE">Speichern</label>
+			<label index="TIME_SELECTOR_TIME">Uhrzeit</label>
+			<label index="TIME_SELECTOR_INSERT_TIME">Uhrzeit auswählen</label>
+			<label index="ICON_SINGLE_VIEW">Detailansicht</label>
+			<label index="ICON_SINGLE_EDIT">Bearbeiten</label>
+			<label index="ICON_SINGLE_COPY">Kopieren - Erstellt einen neuen Eintrag als Kopie des vorhandenen</label>
+			<label index="ICON_SINGLE_HIDE">Verbergen - Verborgene Elemente werden nicht mehr angezeigt</label>
+			<label index="ICON_SINGLE_UNHIDE">Aktivieren - Verborgenen Einträge werden wieder aktiviert</label>
+			<label index="ICON_SINGLE_DELETE">Löschen - Gelöschte Einträge können nur von einem Administrator wiederhergestellt werden</label>
+			<label index="ICON_SINGLE_UNDELETE">Löschen rückgängig machen - Aktiviert einen gelöschten Eintrag und zeigt Ihn wieder an</label>
+			<label index="SAVE_FORM">Speichern</label>
+			<label index="ABORT_FORM">Abbrechen</label>
+			<label index="CAL_SAVE_FORM">Termin speichern</label>
+		</languageKey>
+	</data>
+</T3locallang>

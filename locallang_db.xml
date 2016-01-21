@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'fe_management'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_news_cat.tx_femanagement_news_cat_admin">Frontend News Administrator</label>
+			<label index="tx_cal_category.tx_femanagement_cal_cat_admin">Frontend Calendar Administrator</label>
+			<label index="tx_cal_category.tx_femanagement_news_associated_group">Associated Frontend News group</label>
+			<label index="tx_cal_category.tx_femanagement_cal_associated_group">Associated Frontend Calendar group</label>
+			<label index="tx_femanagement_forschungsprojekte.link_to_fac">Researchproject Title</label>
+			<label index="tt_content.list_type_pi1">Frontend Management</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_news_cat.tx_femanagement_news_cat_admin">Frontend News Administrator</label>
+			<label index="tx_cal_category.tx_femanagement_cal_cat_admin">Frontend Kalender Administrator</label>
+			<label index="tx_cal_category.tx_femanagement_news_associated_group">Zugehörige Frontend News Gruppe</label>
+			<label index="tx_cal_category.tx_femanagement_cal_associated_group">Zugehörige Frontend Kalender Gruppe</label>
+			<label index="tx_femanagement_forschungsprojekte.link_to_fac">Forschungsprojekt Titel</label>
+			<label index="tt_content.list_type_pi1">Frontend Management</label>
+		</languageKey>
+	</data>
+</T3locallang>

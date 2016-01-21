@@ -1,0 +1,896 @@
+
+.tx-femanagement-pi1 .mceEditor {
+	clear: both;
+	float: left;
+	margin-left: 2px;
+}
+ 
+
+table#fe_management_view_data_list {
+	width: 100%;
+}
+
+th.sortTitle {
+	cursor: pointer;
+}
+	
+form .error {
+	color: red;
+	background-color: transparent;
+	border: none;	
+}
+	
+span.error {
+	display: block;
+	clear: both;
+	font-size: 106%;	
+}
+
+.readonly {
+	background: #ccc !important;
+	opacity: 0.8;
+}
+
+div.content {
+	overflow: scroll-y;
+}
+
+.tx-femanagement-pi1 {
+	overflow: hidden;
+}
+		
+span.notify_required {
+	color: red;
+}
+		
+.tx-femanagement-pi1 input.error, 
+.tx-femanagement-pi1 textarea.error {
+	border: 1px dotted red;
+	}
+
+.tx-femanagement-pi1 div.field {
+	float: left;
+	clear: left;
+	overflow: hidden;
+	margin: 10px 0 0 0;
+	width: 100%;
+}
+.tx-femanagement-pi1 div.field_data {
+	float: left;
+	clear: left;
+	overflow: hidden;
+	margin: 10px 0 0 0;
+	width: 100%;
+}
+
+
+.tx-femanagement-pi1 .disable {
+	opacity: 0.5;	
+}
+
+.tx-femanagement-pi1 .buttons div.field {
+	float: left;
+	clear: none;
+	width: auto;
+}
+
+.tx-femanagement-pi1 label.error,
+.tx-femanagement-pi1 span.error {
+	background-image: url('error.png') !important;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	padding-left: 20px;
+	padding-bottom: 10px;	
+	height: 20px;
+}
+
+.tx-femanagement-pi1 span.help {
+	background-image: url('/typo3conf/ext/fe_management/res/images/help.png') !important;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	padding-left: 20px;
+	padding-bottom: 10px;	
+	height: 20px;
+	margin-left: 4px;
+}
+
+.tx-femanagement-pi1 div.container.container_col2  {
+	float: left;
+	width: 43%;
+	margin-right: 5%;
+	clear: none;
+}
+
+.tx-femanagement-pi1 .field_col2 .field  {
+	float: left;
+	width: 43%;
+	margin-right: 5%;
+	clear: none;
+}
+
+.tx-femanagement-pi1 div.container {
+	clear: left;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.tx-femanagement-pi1 input, 
+.tx-femanagement-pi1 textarea, 
+.ms-container .ms-selectable,
+.ms-container .ms-selection {
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+
+.tx-femanagement-pi1 div.field textarea {
+	background: none;
+	width: 90%;
+	margin-left: 2px;
+	margin-top: 2px;
+	border: 1px solid #3B7089;
+	font-family: Verdana;
+	font-size: 12px;
+	padding: 2px;
+	float: left;
+}
+
+.tx-femanagement-pi1 input[type="text"] {
+	width: 90%;
+}
+
+.tx-femanagement-pi1 div.field input[type="reset"],
+.tx-femanagement-pi1 div.field input[type="button"],
+.tx-femanagement-pi1 div.field input[type="submit"] {
+	width: auto;
+}
+
+
+.tx-femanagement-pi1 input:focus, 
+.tx-femanagement-pi1 textarea:focus {
+/*-webkit-box-shadow: 0px 0px 3px #046;
+-moz-box-shadow: 0px 0px 3px #046;
+box-shadow: 0px 0px 3px #046;
+	border: 2px solid #046;*/
+}
+
+.create_new_date {
+	background-color: transparent;
+	border: none;
+	padding: 2px 2px 10px 2px;
+	border-image: initial;
+}
+
+.tx-femanagement-pi1 div.field label {
+	display: block;
+	width: 95%;
+	clear: both;
+	margin: 5px;
+	font-size: 106%;
+	float: left;
+}
+
+.tx-femanagement-pi1 div.field label.checkbox {
+	width: auto;
+}
+
+.tx-femanagement-pi1 div.field span.description {
+	width: 95%;
+	clear: both;
+	margin: 0 0 10px 5px;
+	float: left;
+}
+
+.tx-femanagement-pi1 div.field input {
+	background: none;
+	margin-left: 2px;
+	margin-top: 2px;
+	border: 1px solid #3B7089;
+	padding: 2px;
+	float: left;
+	width: 90%;
+}
+
+.tx-femanagement-pi1 div.field input.email {
+	width: 20em;
+}
+
+.tx-femanagement-pi1 div.field .radio input {
+	clear: left;
+	width: 10px;
+}
+
+.tx-femanagement-pi1 div.field .radio label {
+	float: left;
+	width: 80%;
+	clear: none;
+	display: inline;
+	margin: 0 0 5px 4px;
+	font-size: 100%;
+}
+
+.tx-femanagement-pi1 div.field input,
+.tx-femanagement-pi1 div.field select,
+.tx-femanagement-pi1 div.field option {
+	font-family: Verdana;
+	font-size: 12px;
+}
+
+.tx-femanagement-pi1 div.field .iconLink {
+	float: left;
+	margin-left: 4px;
+	margin-top: 2px;
+}
+
+.exportFilter {
+	border: none;
+	height: 16px;
+	width: 16px;
+	margin-top: 12px;
+}
+
+.exportFilter.csv {
+	background: url('/typo3conf/ext/fe_management/res/images/csv.png') no-repeat 0 0;
+	border: none;
+}
+
+.exportFilter.xls {
+	background: url('/typo3conf/ext/fe_management/res/images/xls.png') no-repeat 0 0;
+}
+
+.tx-femanagement-pi1 input#titel {
+	width: 90%;
+}
+
+.tx-femanagement-pi1 div.field input.time { 
+	width: 80%;
+}
+
+.tx-femanagement-pi1 div.field input.date { 
+	width: 80%;
+}
+
+.tx-femanagement-pi1 div.field .select,
+.tx-femanagement-pi1 div.field .dynSelectLabel { 
+	width: 80%;
+}
+
+.tx-femanagement-pi1 div.field input[type="checkbox"] { 
+	width: auto;
+	vertical-align: top;
+	margin-top: 6px;
+	border: none;
+}
+
+.tx-femanagement-pi1 div.field span.empty-field-val {
+	clear: left;
+}
+
+.tx-femanagement-pi1 img.action {
+	cursor: pointer;
+}
+
+.tx-femanagement-pi1 #fe_management input[type="submit"],
+.tx-femanagement-pi1 #fe_management input[type="reset"],
+.tx-femanagement-pi1 #fe_management input[type="button"],
+.tx-femanagement-pi1 #fe_management a.button,
+.tx-femanagement-pi1 #menu_top a.button,
+.tx-femanagement-pi1 #buttons_top a.button,
+.tx-femanagement-pi1 #popup_code input[type="button"] {	
+	margin: 10px 10px 10px 0;
+	font-size: 120%;
+	font-weight: normal;
+	color: white;
+	background-color: #3B7089;
+	padding: 4px 10px;
+	text-decoration: none;
+	border: none;
+	cursor: pointer;
+	float: left;
+	border: 1px solid #3B7089;
+}
+
+.tx-femanagement-pi1 #fe_management div.field input[type="button"] {
+	font-size: 110%;
+	font-weight: bold;
+	padding: 2px 4px;
+	margin: 2px;
+}
+
+
+.tx-femanagement-pi1 #menu_top a.button.active {
+	background-color: white;
+	color: #004666;
+}
+
+.tx-femanagement-pi1 #popup_code {
+	padding: 0 10px 10px;
+	overflow: hidden;
+	border-top: 1px solid #004666;
+	clear: left;
+}	
+
+.tx-femanagement-pi1 #buttons_top {
+	margin: 10px 0;
+	overflow: hidden;
+}	
+
+.tx-femanagement-pi1 #menu_top {
+	margin: 5px 0;
+	padding: 5px;
+	border: 1px solid #004666;
+	overflow: hidden;
+}	
+
+.tx-femanagement-pi1 #menu_right {
+	background: #fff url(/fileadmin/images/layout/bg_content.gif) repeat;
+	padding: 30px 5px;
+	float: right;
+	width: 200px;
+	overflow: hidden;
+	min-height: 400px;
+}	
+
+.tx-femanagement-pi1 #menu_right a.button {	
+	display: block;
+	background: #fff;
+	width: 195px;
+	padding: 2px 0 2px 5px;
+	margin: 0;
+	text-decoration: none;
+	color: #004666;
+	border-bottom: 1px dotted #719db0;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+
+.tx-femanagement-pi1 #menu_right a.button:hover,
+.tx-femanagement-pi1 #menu_right a.button:focus {	
+	color: black;
+	background-color: #e5eef1;
+}
+
+.tx-femanagement-pi1 #menu_right a.button.active {	
+	color: #fff;
+	background: #719db0;
+}
+
+.tx-femanagement-pi1 .list_left,
+.tx-femanagement-pi1 .single_left {
+	padding: 5px;
+	float: left;
+	overflow: hidden;
+	width: 730px;
+}	
+
+.tx-femanagement-pi1 .list_left #buttons_top {
+	margin: 0;
+}
+
+.tx-femanagement-pi1 #filter_top {
+	margin: 5px 0;
+	padding: 5px;
+	overflow: hidden;
+	border: 1px solid #004666;
+}
+
+.tx-femanagement-pi1 #filter_top .filter {
+	margin-right: 8px;
+	float: left;
+	overflow: hidden;
+	vertical-align: bottom;
+}
+
+.tx-femanagement-pi1 #filter_top .hidden {
+	display: none;
+}
+
+.tx-femanagement-pi1 #filter_top .filter.toggle_elems {
+	float: right;
+	margin: 16px 0 0 0;
+}
+
+.tx-femanagement-pi1 #filter_top div.date {
+	width: 68px;
+	border: none;
+	padding: 0;
+}
+
+.tx-femanagement-pi1 #filter_top .search {
+	width: 110px;
+}
+
+.tx-femanagement-pi1 #filter_top .search input {
+	margin: 0;
+	width: 100px;
+}
+
+.tx-femanagement-pi1 #filter_top .select {
+	width: 80px;
+}
+
+.tx-femanagement-pi1 #filter_top select {
+	width: 80px;
+}
+
+.tx-femanagement-pi1 #filter_top .check {
+	width: 60px;
+}
+
+.tx-femanagement-pi1 #filter_top .export {
+	width: 20px;
+}
+
+.tx-femanagement-pi1 #filter_top div.sort {
+	width: 80px;
+	border: none;
+	padding: 0;
+}
+
+.tx-femanagement-pi1 #filter_top .filter label {
+	width: auto;
+	margin: 2px 0;
+}
+
+.tx-femanagement-pi1 .a-z-filter a {
+	padding: 0 4px;
+}
+
+.tx-femanagement-pi1 .a-z-filter a.act,
+.tx-femanagement-pi1 .showAllChars {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.tx-femanagement-pi1 .a-z-filter a.cur {
+	text-decoration: none;
+	cursor: normal;
+	background: #004666;
+	color: #fff;
+	font-weight: bold;
+}
+
+.tx-femanagement-pi1 .a-z-filter a.no {
+	text-decoration: none;
+	cursor: normal;
+}
+
+.tx-femanagement-pi1 #data_container {
+	clear: both;
+	padding: 0;
+}
+
+.tx-femanagement-pi1 #data_container .row_title,
+.tx-femanagement-pi1 #data_container .row_elem {
+	clear: both;
+	padding: 0;
+	overflow: hidden;
+}
+
+.tx-femanagement-pi1 #data_container .row_title {
+	padding: 2px 0;
+	background: #004666;
+	width: 100%;
+	color: #fff;
+	font-weight: bold;
+}
+
+.tx-femanagement-pi1 #data_container .row_title div,
+.tx-femanagement-pi1 #data_container .row_elem div {
+	float: left;
+	margin-right: 5px;
+}
+
+.tx-femanagement-pi1 #data_container .row_elem div.no_float {
+	width: 100%;
+}
+
+.tx-femanagement-pi1 #data_container .row_title div.no_float div,
+.tx-femanagement-pi1 #data_container .row_elem div.no_float div {
+	float: none;
+	margin: 0 0 10px 0;
+	overflow: hidden;
+}
+
+.tx-femanagement-pi1 #data_container .row_elem div.no_float div.image,
+.tx-femanagement-pi1 #data_container .row_elem div.no_float div.image_90,
+.tx-femanagement-pi1 #data_container .row_elem div.no_float div.image_120,
+.tx-femanagement-pi1 #data_container .row_elem div.no_float div.image_150,
+.tx-femanagement-pi1 #data_container .row_elem div.no_float div.image_200,
+.tx-femanagement-pi1 #data_container .row_elem div.no_float div.image_25 {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.tx-femanagement-pi1 #data_container .odd {
+	background: #D9E4E8;
+}
+	
+.tx-femanagement-pi1 #data_container .even {
+	background: #fff;
+}
+
+.tx-femanagement-pi1 #data_container div.title,
+.tx-femanagement-pi1 #data_container td.title,
+.tx-femanagement-pi1 #data_container td.titel {
+	width: 300px;
+}
+	
+.tx-femanagement-pi1 #data_container div.image {
+	width: 25px;
+}
+	
+.tx-femanagement-pi1 #data_container div.image img {
+	width: 20px;
+}
+	
+.tx-femanagement-pi1 #data_container div.image_50 {
+	width: 50px;
+}
+	
+.tx-femanagement-pi1 #data_container div.image_50 img {
+	width: 45px;
+}
+	
+.tx-femanagement-pi1 #data_container div.image_90 {
+	width: 90px;
+}
+	
+.tx-femanagement-pi1 #data_container div.image_90 img {
+	width: 85px;
+}
+	
+.tx-femanagement-pi1 #data_container div.image_120 {
+	width: 120px;
+}
+	
+.tx-femanagement-pi1 #data_container div.image_120 img {
+	width: 115px;
+}
+	
+.tx-femanagement-pi1 #data_container div.image_150 {
+	width: 150px;
+}
+	
+.tx-femanagement-pi1 #data_container div.image_150 img {
+	width: 145px;
+}
+	
+.tx-femanagement-pi1 #data_container div.image_200 {
+	width: 200px;
+}
+	
+.tx-femanagement-pi1 #data_container div.image_200 img {
+	width: 195px;
+}
+	
+.tx-femanagement-pi1 #data_container div.hersteller,
+.tx-femanagement-pi1 #data_container div.kategorie {
+	width: 100px;
+}
+	
+.tx-femanagement-pi1 #data_container div.kategorie_roem {
+	width: 200px;
+}
+	
+.tx-femanagement-pi1 #data_container div.preis {
+	width: 50px;
+}
+	
+.tx-femanagement-pi1 #data_container div.cart {
+	width: 100px;
+}
+	
+.tx-femanagement-pi1 #data_container div.ort,
+.tx-femanagement-pi1 #data_container div.veranstalter,
+.tx-femanagement-pi1 #data_container td.ort,
+.tx-femanagement-pi1 #data_container td.veranstalter {
+	width: 150px;
+}
+	
+.tx-femanagement-pi1 #data_container td.actions {
+	width: 120px;
+}
+	
+/*
+ * ####################### Pagebrowser #######################
+ */
+
+.tx-femanagement-pi1 #pagebrowser {
+	margin: 0 0 10px 0;
+	width: 100%;
+}
+
+.tx-femanagement-pi1 #pagebrowserTitle {
+	font-size: 120%;
+	color: #004666;
+	padding: 2px 0;
+}
+
+.tx-femanagement-pi1 #pagebrowserContent {
+	padding: 2px 0;
+	background: #004666;
+	width: 100%;
+}
+
+table#fe_management_view_data_list {
+	width: 100%;
+}
+
+.tx-femanagement-pi1 #pagebrowser input[type="button"] {
+	padding: 0;
+	margin: 0 2px;
+	background: transparent;
+	color: #fff;
+	font-weight: bold;
+	padding: 0 2px;
+}
+
+.tx-femanagement-pi1 #pagebrowser input[type="button"].active,
+.tx-femanagement-pi1 #pagebrowser input[type="button"]:hover,
+.tx-femanagement-pi1 #pagebrowser input[type="button"]:focus {
+	color: #004666;
+	background: #fff;
+	padding: 0 2px;
+}
+
+
+
+/*
+ * #######################################
+ */
+
+.ui-autocomplete.ui-menu {
+	width: 500px;
+}
+
+.ui-autocomplete .ui-menu-item {
+	list-style-type: none;
+	background: #004666;
+	border-bottom: 1px solid #fff;
+	padding: 2px 0;
+	margin: 0;
+}
+
+.ui-autocomplete a {
+	text-decoration: none !important;
+	width: 100%;
+	display: block;
+	cursor: pointer;
+	color: #fff;
+	border: none !important;
+} 
+
+.ui-autocomplete a.ui-state-hover {
+	border: none !important;
+	color: #004666;
+	background: #fff;
+} 
+
+.tx-femanagement-pi1 fieldset {
+	border: 1px dotted #3B7089;
+	padding: 5px;
+	margin: 0px 5px 15px 5px;
+}
+	
+.tx-femanagement-pi1 input.select {
+	width: 90%;
+}
+
+.tx-femanagement-pi1 .fileUpload input {
+	width: 90%;
+	vertical-align: top;
+}
+
+/*
+* ########### SINGLE VIEW ############
+*/
+
+.tx-femanagement-pi1 .singleview {
+	padding: 10px;
+}
+
+.tx-femanagement-pi1 .image {
+	float: left;
+	padding: 0 10px 10px 0;
+}
+
+.tx-femanagement-pi1 label {
+	font-weight: bold;
+	margin: 5px 5px 5px 0;
+}
+
+.tx-femanagement-pi1 .clear {
+	clear: both;
+}
+
+/*
+* ########### LIST VIEW ############
+*/
+
+#fe_management_viewdata span.label {
+	width: 150px;
+	float: left;
+	text-align: right;
+	font-weight: bold;
+	margin: 4px;
+	clear: left;
+}
+
+#fe_management_viewdata span.value {
+	width: 60%;
+	float: left;
+	margin: 4px;
+}
+
+#fe_management_viewdata div {
+	clear: left;
+}
+
+#fe_management_viewdata .field_col2 div {
+	clear: none;
+}
+
+#fe_management_viewdata div.container.container_col2 {
+	width: 90%;	
+}
+
+#fe_management_viewdata div.field {
+}
+
+#fe_management_viewdata fieldset {
+	border: none;
+	margin: none;
+}
+
+#fe_management_viewdata legend {
+	font-size: 120%;
+}
+
+/*
+ * ########### Icons ############
+ */
+
+.tx-femanagement-pi1 .icon-actions {
+	height: 16px;
+	width: 16px;
+	background-image: url('/typo3/sysext/t3skin/images/sprites/t3skin.png') !important;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;	
+	float: left;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.dyn_table .icon-actions {
+	padding: 0;
+}
+
+.dyn_table th.hidden,
+.dyn_table td.hidden {
+	display: none;
+}
+table.dyn_table th, 
+table.dyn_table td {
+	vertical-align: top;
+}
+
+.tx-femanagement-pi1 .t3-icon-move-down.hidden {
+	background-image: none !important;
+	cursor: default;
+}
+
+.tx-femanagement-pi1 .t3-icon-move-up.hidden {
+	background-image: none !important;
+	cursor: default;
+}
+
+.ui-timepicker-table .ui-timepicker-title {
+	line-height: 1.8em;
+	text-align: center;
+	background: #046;
+	color: white;
+}
+
+.tx-femanagement-pi1 .icon-copy {
+	background-position: -90px -18px !important;
+}
+
+.tx-femanagement-pi1 .icon-edit {
+	background-position: -198px -0px !important;
+}
+
+.tx-femanagement-pi1 .icon-delete {
+	background-position: -162px -18px !important;
+}
+
+.tx-femanagement-pi1 .icon-new {
+	background-position: -72px -18px !important;
+}
+
+.tx-femanagement-pi1 .icon-view {
+	background-position: -126px -72px !important;
+}
+
+.tx-femanagement-pi1 .icon-destroy {
+	background: url('images/destroy.png') no-repeat 0 0 !important;
+}
+
+.jHtmlArea iframe {
+	border: 0px;
+	border-top: 1px solid #3B7089;
+}
+	
+.jHtmlArea {
+	border: 1px solid #3B7089;
+	padding:  1px;
+	margin: 2px 0px 2px 2px;
+	float: left;
+}
+	
+.tx-femanagement-pi1 table.dyn_table {
+	border-collapse: collapse;
+	margin: 10px;
+	clear: left;
+}
+
+table.dyn_table th {
+	padding: 2px 4px;
+}
+
+table.dyn_table th.actions {
+	background: none;
+	width: 60px;
+}
+
+table.dyn_table td input {
+	margin: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+
+table.dyn_table td.icon-actions {
+	margin-left: 4px;
+}
+
+/*
+ * ########### JS msgBox ############
+ */
+	.msgBoxOverlay{position:fixed;top:0;left:0;background:rgba(0,0,0,0.3);display:none;z-index: 99;}
+	.msgBoxOuter{background:#eee;box-shadow:0 3px 7px #333;-moz-box-shadow:0 3px 7px #333;-webkit-box-shadow:0 3px 7px #333;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-khtml-border-radius:4px;z-index:99999999;min-width:200px;min-height:50px;max-width:75%;position:fixed;display:none;}
+	.msgBoxInner{color:#333;text-shadow:0 1px 0 #fff;padding: 20px;}
+	.msgBoxInner button{border:1px solid #bbb;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-khtml-border-radius:3px;background:0;color:#232d3d;font-size:12px;font-weight:700;text-shadow:0 1px 0 #fff;cursor:pointer;box-shadow:0 1px 2px #ccc;-moz-box-shadow:0 1px 2px #ccc;-webkit-box-shadow:0 1px 2px #ccc;margin:0 3px;padding:4px 10px;}
+	.msgBoxInner button:hover{color:#004666;}
+	.aButtons,.aInput{text-align:center;margin:20px 10px 0;}
+	.aCheckbox{margin:10px 12px;}
+	.aCheck{margin-right: 4px;}
+	.aTextbox{border:1px solid #aaa;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;-khtml-border-radius:4px;box-shadow:0 1px 0 #fff;-moz-box-shadow:0 1px 0 #fff;-webkit-box-shadow:0 1px 0 #fff;width:400px;font-size:12px;font-weight:700;padding:5px 10px;}
+	.msgBoxOuter .msgboxTitle {padding: 10px 20px; background: #719DB0;}	
+	.msgBoxOuter .msgboxTitle h3 { color: #fff; padding: 0;margin: 0;}	
+
+	#spinOverlay {
+		position: fixed;
+		display: block;
+		top: 0;
+		left: 0;
+		background: rgba(0,0,0,0.5) url(images/spinner.gif) center center no-repeat;
+		z-index: 99;
+	}
+	
+	#spinOverlayMessage {
+		margin: auto;
+		position: absolute;
+		height: 10px;
+		width: 200px;
+		text-align: center;
+		color: #fff;
+	}

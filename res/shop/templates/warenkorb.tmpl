@@ -1,0 +1,90 @@
+
+	
+<!-- ###WTCART### begin --> 
+     <h2>Warenkorb</h2>
+    <div class="wtcart_cart">
+    Sie können die Anzahl der Artikel jederzeit verändern, 
+    indem Sie das entsprechende Feld bearbeiten.
+    <script type="text/javascript">
+    var startwert;
+    var endwert;
+    var element;
+    
+    	function lade_neu() {
+    		endwert = element.value;
+    		if (endwert==startwert) {
+	    		document.forms['form_warenkorb'].submit();
+    		} else {
+	    		element.style.cursor = 'auto';
+    		}
+    	}
+    	
+    	function preis_neu_berechnen(elem) {
+    		element = elem;
+    		startwert = elem.value;
+    		element.style.cursor = 'wait';
+    	// Neu laden mit Verzögerung
+    		window.setTimeout("lade_neu()", 1000);
+     	}
+    </script>
+    	<form id="form_warenkorb" action="###TARGET###" method="post">
+    				<table class="wtcart_cart">
+	            <tr class="wtcart_cart_header">
+	                <td class="wtcart_cart_col wtcart_cart_anzahl">Anzahl</td>
+	                <td class="wtcart_cart_col wtcart_cart_artikelnummer">Artnr.</td>
+	                <td class="wtcart_cart_col wtcart_cart_produktbezeichnung">Produktbezeichnung</td>
+	                <td class="wtcart_cart_col wtcart_cart_preis">Preis</td>
+	                <td class="wtcart_cart_col wtcart_cart_preis">Gesamtpreis</td>
+	                <td class="wtcart_cart_col wtcart_cart_loeschen"></td>
+	            </tr>
+            <!-- ###CONTENT### --><!-- ###ITEM### -->
+              <tr class="wtcart_cart_product">
+                  <td class="wtcart_cart_col wtcart_cart_anzahl"><input type="text" value="###AMOUNT###" name="tx_wtcart_pi1[amount][###PUID###]" onkeyup="javascript:preis_neu_berechnen(this)" /></td>
+                  <td class="wtcart_cart_col wtcart_cart_artikelnummer">###ARTIKELNUMMER###</td>
+                  <td class="wtcart_cart_col wtcart_cart_produktbezeichnung">###TITLE###</td>
+                  <td class="wtcart_cart_col wtcart_cart_preis">###PRICE###</td>
+                  <td class="wtcart_cart_col wtcart_cart_preis">###PRICE_TOTAL###</td>
+                  <td class="wtcart_cart_col wtcart_cart_loeschen">###DELETE###</td>
+                  <td style="clear: both;"></div>
+              </tr>
+            <!-- ###ITEM### --><!-- ###CONTENT### -->
+           <tr class="wtcart_cart_footer">
+                <td colspan="4" class="wtcart_cart_col wtcart_cart_gesamtsumme">Gesamtsumme:</td>
+                <td class="wtcart_cart_col wtcart_cart_gesamtpreis">###PRICE_TOTAL_OVERALL###</td>
+                <td style="clear: both;"></td>
+            </tr>
+           </table>
+    	</form>
+    </div>
+<!-- ###WTCART### end -->
+
+
+<!-- ###WTCART_EMPTY### begin --> 
+	<div class="wtcart_cart_empty">###WTCART_LL_EMPTY###</div>
+<!-- ###WTCART_EMPTY### end --> 
+
+
+<!-- ###WTCART_POWERMAIL### begin --> 
+<table width="800" cellpadding="3" cellspacing="0" bgcolor="cccccc" border="1">
+	<tr style="font-weight: bold;">
+      <td>Artnr.</td>
+      <td>Produktbezeichnung</td>
+    	<td>Anzahl</td>
+      <td>Preis</td>
+      <td>Gesamtpreis</td>
+    </tr>
+    <!-- ###CONTENT### --><!-- ###ITEM### -->
+    	<tr>
+        <td>###ARTIKELNUMMER###</td>
+        <td>###TITLE###</td>
+         <td>###AMOUNT###</td>
+        <td>###PRICE###</td>
+        <td>###PRICE_TOTAL###</td>
+      </tr>
+    <!-- ###ITEM### --><!-- ###CONTENT### -->
+     <tr class="wtcart_cart_footer">
+          <td colspan="4">Gesamtsumme:</td>
+          <td>###PRICE_TOTAL_OVERALL###</td>
+      </tr>
+</table>
+<!-- ###WTCART_POWERMAIL### end -->

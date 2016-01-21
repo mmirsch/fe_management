@@ -1,0 +1,390 @@
+<T3DataStructure>
+	<meta>
+	<langDisable>1</langDisable>
+	</meta>
+  <sheets>
+    <ansicht>
+      <ROOT>
+        <TCEforms><sheetTitle>Ansicht auswählen</sheetTitle></TCEforms>
+        <type>array</type>
+        <el>
+          <mode>
+            <TCEforms>
+              <label>Anwendung auswählen</label>
+              <onChange>reload</onChange>
+              <config>
+                <type>select</type>
+                <items type="array">
+                  <numIndex index="0" type="array">
+                    <numIndex index="0">Berechtigungen</numIndex>
+                    <numIndex index="1">PERMISSIONS</numIndex>
+                  </numIndex>
+                  <numIndex index="1" type="array">
+                    <numIndex index="0">Kalender</numIndex>
+                    <numIndex index="1">CAL</numIndex>
+                  </numIndex>
+                  <numIndex index="2" type="array">
+                    <numIndex index="0">Nachrichten</numIndex>
+                    <numIndex index="1">NEWS</numIndex>
+                  </numIndex>
+                  <numIndex index="3" type="array">
+                    <numIndex index="0">Shop</numIndex>
+                    <numIndex index="1">SHOP</numIndex>
+                  </numIndex>
+                  <numIndex index="4" type="array">
+                    <numIndex index="0">Forschung</numIndex>
+                    <numIndex index="1">FORSCHUNG</numIndex>
+                  </numIndex>
+                 	<numIndex index="5" type="array">
+                    <numIndex index="0">Qualitätssicherungsmittel</numIndex>
+                    <numIndex index="1">QSM</numIndex>
+                  </numIndex>
+                 	<numIndex index="6" type="array">
+                    <numIndex index="0">Englischsprachige Module</numIndex>
+                    <numIndex index="1">MODULES_EN</numIndex>
+                  </numIndex>
+                  <numIndex index="7" type="array">
+                    <numIndex index="0">Veranstalltungen</numIndex>
+                    <numIndex index="1">EVENTS</numIndex>
+                  </numIndex>
+                <numIndex index="8" type="array">
+                    <numIndex index="0">Promotionen</numIndex>
+                    <numIndex index="1">PROMOTIONEN</numIndex>
+                </numIndex>
+
+                </items>
+                <maxitems>1</maxitems>
+                <size>1</size>
+              </config>
+            </TCEforms>
+          </mode>    
+			<cal>
+				<TCEforms>
+				<displayCond>FIELD:mode:IN:CAL</displayCond>
+					<label></label>
+		              <config>
+		                <type>select</type>
+		                <items type="array">
+		                  <numIndex index="0" type="array">
+		                    <numIndex index="0">Cal - Verwaltung</numIndex>
+		                    <numIndex index="1">CAL_EVENTS</numIndex>
+		                  </numIndex>
+		                  <numIndex index="1" type="array">
+		                    <numIndex index="0">Cal - Einzelansicht</numIndex>
+		                    <numIndex index="1">CAL_CREATE_EVENT</numIndex>
+		                  </numIndex>
+		                  <numIndex index="2" type="array">
+		                    <numIndex index="0">Cal - Einzelansicht Veranstalter</numIndex>
+		                    <numIndex index="1">CAL_CREATE_ORGANIZER</numIndex>
+		                  </numIndex>
+		                  <numIndex index="3" type="array">
+		                    <numIndex index="0">Cal - Einzelansicht Ort</numIndex>
+		                    <numIndex index="1">CAL_CREATE_LOCATION</numIndex>
+		                  </numIndex>
+		                </items>    
+		                <maxitems>1</maxitems>
+		                <size>1</size>
+		              </config>
+				</TCEforms>
+			</cal>
+			<news>
+				<TCEforms>
+				<displayCond>FIELD:mode:IN:NEWS</displayCond>
+					<label>Anwendung auswählen</label>
+		              <config>
+		                <type>select</type>
+		                <items type="array">
+		                  <numIndex index="0" type="array">
+		                    <numIndex index="0">News - Verwaltung</numIndex>
+		                    <numIndex index="1">NEWS_EVENTS</numIndex>
+		                  </numIndex>
+		                  <numIndex index="1" type="array">
+		                    <numIndex index="0">News - Einzelansicht</numIndex>
+		                    <numIndex index="1">NEWS_CREATE_EVENT</numIndex>
+		                  </numIndex>
+		                </items>    
+		                <maxitems>1</maxitems>
+		                <size>1</size>
+		              </config>
+				</TCEforms>
+			</news>
+			<shop>
+				<TCEforms>
+				<displayCond>FIELD:mode:IN:SHOP</displayCond>
+					<label>Ansicht auswählen</label>
+		              <config>
+		                <type>select</type>
+		                <items type="array">
+		                  <numIndex index="0" type="array">
+		                    <numIndex index="0">Shop - Verwaltung</numIndex>
+		                    <numIndex index="1">SHOP_ARTICLE</numIndex>
+		                  </numIndex>
+		                  <numIndex index="1" type="array">
+		                    <numIndex index="0">Shop - Einzelansicht</numIndex>
+		                    <numIndex index="1">SHOP_ARTICLE_CREATE</numIndex>
+		                  </numIndex>
+		                  <numIndex index="2" type="array">
+		                    <numIndex index="0">Shop - Warenkorb</numIndex>
+		                    <numIndex index="1">SHOP_CART</numIndex>
+		                  </numIndex>
+		                  <numIndex index="3" type="array">
+		                    <numIndex index="0">Shop - Hersteller</numIndex>
+		                    <numIndex index="1">SHOP_HERSTELLER</numIndex>
+		                  </numIndex>
+		                  <numIndex index="4" type="array">
+		                    <numIndex index="0">Shop - Lieferanten</numIndex>
+		                    <numIndex index="1">SHOP_LIEFERANTEN</numIndex>
+		                  </numIndex>
+		                </items>    
+		                <maxitems>1</maxitems>
+		                <size>1</size>
+		              </config>
+				</TCEforms>
+			</shop>
+			<forschung>
+				<TCEforms>
+				<displayCond>FIELD:mode:IN:FORSCHUNG</displayCond>
+					<label>Anwendung auswählen</label>
+		              <config>
+		                <type>select</type>
+		                <items type="array">
+		                  <numIndex index="0" type="array">
+		                    <numIndex index="0">Forschungsbereiche - Verwaltung</numIndex>
+		                    <numIndex index="1">FORSCHUNG_MANAGEMENT</numIndex>
+		                  </numIndex>
+		                  <numIndex index="1" type="array">
+		                    <numIndex index="0">Forschungseintrag - erstellen</numIndex>
+		                    <numIndex index="1">FORSCHUNG_CREATE</numIndex>
+		                  </numIndex>
+		                  <numIndex index="2" type="array">
+		                    <numIndex index="0">Forschungseintrag - Listenansicht</numIndex>
+		                    <numIndex index="1">FORSCHUNG_LISTVIEW</numIndex>
+		                  </numIndex>
+		                	<numIndex index="3" type="array">
+		                    <numIndex index="0">Personen - Verwaltung</numIndex>
+		                    <numIndex index="1">FORSCHUNG_PERSONEN</numIndex>
+		                  </numIndex>
+		                  </items>    
+		                <maxitems>1</maxitems>
+		                <size>1</size>
+		              </config>
+				</TCEforms>
+			</forschung>
+            <promotionen>
+                <TCEforms>
+                    <displayCond>FIELD:mode:IN:PROMOTIONEN</displayCond>
+                    <label>Anwendung auswählen</label>
+                    <config>
+                        <type>select</type>
+                        <items type="array">
+                            <numIndex index="0" type="array">
+                                <numIndex index="0">Promotionen - Verwaltung</numIndex>
+                                <numIndex index="1">PROMOTIONEN_MANAGEMENT</numIndex>
+                            </numIndex>
+                            <numIndex index="1" type="array">
+                                <numIndex index="0">Promotion - erstellen</numIndex>
+                                <numIndex index="1">PROMOTIONEN_CREATE</numIndex>
+                            </numIndex>
+							<numIndex index="2" type="array">
+								<numIndex index="0">Promotionen - Listenansicht</numIndex>
+								<numIndex index="1">PROMOTIONEN_LISTVIEW</numIndex>
+							</numIndex>
+                        </items>
+                        <maxitems>1</maxitems>
+                        <size>1</size>
+                    </config>
+                </TCEforms>
+            </promotionen>
+            <qsm>
+				<TCEforms>
+				<displayCond>FIELD:mode:IN:QSM</displayCond>
+					<label>Anwendung auswählen</label>
+		              <config>
+		                <type>select</type>
+		                <items type="array">
+		                  <numIndex index="0" type="array">
+		                    <numIndex index="0">QSM - Verwaltung</numIndex>
+		                    <numIndex index="1">QSM_LIST</numIndex>
+		                  </numIndex>
+		                  <numIndex index="1" type="array">
+		                    <numIndex index="0">QSM - Antrag erstellen</numIndex>
+		                    <numIndex index="1">QSM_CREATE</numIndex>
+		                  </numIndex>
+		                </items>    
+		                <maxitems>1</maxitems>
+		                <size>1</size>
+		              </config>
+				</TCEforms>
+			</qsm>
+			<modules_en>
+				<TCEforms>
+				<displayCond>FIELD:mode:IN:MODULES_EN</displayCond>
+					<label>Anwendung auswählen</label>
+		              <config>
+		                <type>select</type>
+		                <items type="array">
+		                  <numIndex index="0" type="array">
+		                    <numIndex index="0">Englischsprachige Module - Verwaltung</numIndex>
+		                    <numIndex index="1">MODULES_EN_MANAGEMENT</numIndex>
+		                  </numIndex>
+		                  <numIndex index="1" type="array">
+		                    <numIndex index="0">Englischsprachige Module - erstellen</numIndex>
+		                    <numIndex index="1">MODULES_EN_CREATE</numIndex>
+		                  </numIndex>
+		                  <numIndex index="2" type="array">
+		                    <numIndex index="0">Englischsprachige Module - Listenansicht</numIndex>
+		                    <numIndex index="1">MODULES_EN_LISTVIEW</numIndex>
+		                  </numIndex>
+		                  </items>    
+		                <maxitems>1</maxitems>
+		                <size>1</size>
+		              </config>
+				</TCEforms>
+			</modules_en>
+			<events>
+				<TCEforms>
+				<displayCond>FIELD:mode:IN:EVENTS</displayCond>
+					<label>Anwendung auswählen</label>
+		              <config>
+		                <type>select</type>
+		                <items type="array">
+		                  <numIndex index="0" type="array">
+		                    <numIndex index="0">Veranstaltungen - Verwaltung</numIndex>
+		                    <numIndex index="1">EVENTS_MANAGEMENT</numIndex>
+		                  </numIndex>
+                            <numIndex index="2" type="array">
+                                <numIndex index="0">Veranstaltungen - Listenansicht</numIndex>
+                                <numIndex index="1">EVENTS_LISTVIEW</numIndex>
+                            </numIndex>
+                            <numIndex index="3" type="array">
+                                <numIndex index="0">Veranstaltungen - Termin buchen</numIndex>
+                                <numIndex index="1">EVENTS_BOOKING</numIndex>
+                            </numIndex><numIndex index="3" type="array">
+                            <numIndex index="0">Veranstaltungen - Anmeldungen verwalten</numIndex>
+                            <numIndex index="1">EVENTS_BOOKING_MANAGEMENT</numIndex>
+                        </numIndex>
+		                  </items>    
+		                <maxitems>1</maxitems>
+		                <size>1</size>
+		              </config>
+				</TCEforms>
+			</events>
+		</el>
+    </ROOT>
+    </ansicht>
+    <weiteres>
+      <ROOT>
+        <TCEforms><sheetTitle>Grundeinstellungen</sheetTitle></TCEforms>
+        <type>array</type>
+        	<el>
+	          	<STORAGE_PID>
+					<TCEforms>
+						<label>Seiten-ID der Datensätzen</label>
+						<config>
+							<type>input</type>
+							<eval>string</eval>
+							<size>15</size>
+						</config>
+					</TCEforms>
+				</STORAGE_PID>
+				<CAT_STORAGE_PID>
+					<TCEforms>
+						<label>Seiten-ID der Kategorien</label>
+						<config>
+							<type>input</type>
+							<eval>string</eval>
+							<size>15</size>
+						</config>
+					</TCEforms>
+				</CAT_STORAGE_PID>
+			</el>
+      	</ROOT>
+    </weiteres>
+    <e_mail>
+      <ROOT>
+        <TCEforms><sheetTitle>E-Mail Einstellungen</sheetTitle></TCEforms>
+        <type>array</type>
+        	<el>
+	          	<MAIL_FROM_EMAIL>
+					<TCEforms>
+						<label>E-Mail Absender Adresse</label>
+						<config>
+							<type>input</type>
+							<eval>string</eval>
+							<size>30</size>
+						</config>
+					</TCEforms>
+				</MAIL_FROM_EMAIL>
+				<MAIL_FROM_NAME>
+					<TCEforms>
+						<label>E-Mail Absender Name</label>
+						<config>
+							<type>input</type>
+							<eval>string</eval>
+							<size>40</size>
+						</config>
+					</TCEforms>
+				</MAIL_FROM_NAME>
+				<MAIL_REPLYTO_EMAIL>
+					<TCEforms>
+						<label>E-Mail Antwort Adresse</label>
+						<config>
+							<type>input</type>
+							<eval>string</eval>
+							<size>30</size>
+						</config>
+					</TCEforms>
+				</MAIL_REPLYTO_EMAIL>
+				<MAIL_REPLYTO_NAME>
+					<TCEforms>
+						<label>E-Mail Antwort Name</label>
+						<config>
+							<type>input</type>
+							<eval>string</eval>
+							<size>40</size>
+						</config>
+					</TCEforms>
+				</MAIL_REPLYTO_NAME>
+			</el>
+      	</ROOT>
+    </e_mail>
+    <editor>
+      <ROOT>
+        <TCEforms><sheetTitle>Editor Einstellungen</sheetTitle></TCEforms>
+        <type>array</type>
+        	<el>
+	        <TIMEPICKER_INTERVALL>
+					<TCEforms>
+						<label>Timepicker: Minuten Intervall</label>
+						<config>
+							<type>input</type>
+							<eval>string</eval>
+							<size>2</size>
+						</config>
+					</TCEforms>
+				</TIMEPICKER_INTERVALL>
+				<TIMEPICKER_EARLIEST_HOUR>
+					<TCEforms>
+						<label>Timepicker: Frühste Stunde</label>
+						<config>
+							<type>input</type>
+							<eval>string</eval>
+							<size>2</size>
+						</config>
+					</TCEforms>
+				</TIMEPICKER_EARLIEST_HOUR>
+				<TIMEPICKER_LATEST_HOUR>
+					<TCEforms>
+						<label>Timepicker: Späteste Stunde</label>
+						<config>
+							<type>input</type>
+							<eval>string</eval>
+							<size>2</size>
+						</config>
+					</TCEforms>
+				</TIMEPICKER_LATEST_HOUR>
+			</el>
+      	</ROOT>
+    </editor>
+  </sheets>
+</T3DataStructure>

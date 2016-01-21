@@ -1,0 +1,106 @@
+.tx-femanagement-pi1 #dyn_table_mittel input.title {
+	width: 300px;
+}
+
+.tx-femanagement-pi1 #dyn_table_mittel input.betrag {
+	width: 80px;
+}
+
+.tx-femanagement-pi1 .container label {
+	padding: 0;
+	border: none;
+}
+
+.tx-femanagement-pi1 #fe_management_view_data_list td.title {
+	width: 200px;
+}
+
+table.verwendungsdaten {
+	border-collapse: collapse;	
+	margin-bottom: 20px;
+}
+
+table.verwendungsdaten th {
+	padding: 10px;
+	font-size: 140%;
+	background: #719db0;
+}
+
+table.verwendungsdaten tr.ueberschrift td {
+	background: #004666;
+	color: #FFF;
+	font-weight: bold;
+	border: 1px solid #fff;
+	margin: 0pt;
+	padding: 4px;
+	text-align: center;
+}
+
+table.verwendungsdaten td {
+	border: 1px solid #666666;
+	margin: 0pt;
+	padding: 4px;
+}
+
+.tx-femanagement-pi1 div.verwendung #filter_top .search {
+	width: 150px;
+}
+
+table.verwendungsdaten td.semester,
+table.verwendungsdaten td.verantw,
+table.verwendungsdaten td.budget,
+table.verwendungsdaten td.stellen {
+	text-align: right;
+}
+
+.tx-femanagement-pi1 div.verwendung #filter_top .search label,
+.tx-femanagement-pi1 div.verwendung #filter_top .search input {
+	float: left;
+	width: 140px;
+}
+
+.tx-femanagement-pi1 div.verwendung #filter_top .select.bezugssemester {
+	width: 150px;
+}
+
+.tx-femanagement-pi1 div.verwendung #filter_top .select.bezugssemester label,
+.tx-femanagement-pi1 div.verwendung #filter_top .select.bezugssemester select {
+	float: left;
+	width: 140px;
+}
+
+.tx-femanagement-pi1 div #filter_top .select.bereich {
+	width: 150px;
+	
+}
+
+.tx-femanagement-pi1 div #filter_top .select.bereich label,
+.tx-femanagement-pi1 div #filter_top .select.bereich select {
+	float: left;
+	width: 140px;
+}
+
+/* Icons */
+.tx-femanagement-pi1 a.icon-actions.ablehnen {
+	background: url('/typo3conf/ext/fe_management/res/qsm/images/ablehnen.png') no-repeat 0 0 !important;
+}
+
+.tx-femanagement-pi1 a.icon-actions.bewilligen {
+	background: url('/typo3conf/ext/fe_management/res/qsm/images/bewilligen.png') no-repeat 0 0 !important;
+}
+
+.tx-femanagement-pi1 a.icon-actions.verbuchen {
+	background: url('/typo3conf/ext/fe_management/res/qsm/images/masnanr.png') no-repeat 0 0 !important;
+}
+
+.tx-femanagement-pi1 a.icon-actions.verlaengern {
+	background: url('/typo3conf/ext/fe_management/res/qsm/images/verlaengern.png') no-repeat 0 0 !important;
+}
+
+.tx-femanagement-pi1 a.icon-actions.printer {
+	background: url('/typo3conf/ext/fe_management/res/qsm/images/printer.png') no-repeat 0 0 !important;
+}
+
+.tx-femanagement-pi1 a.icon-actions.pdf {
+	background: url('/typo3conf/ext/fe_management/res/qsm/images/bewilligen.pdf') no-repeat 0 0 !important;
+}
